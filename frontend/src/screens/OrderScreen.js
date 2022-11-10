@@ -106,12 +106,15 @@ export default function OrderScreen() {
         toast.success("Order is paid");
       } catch (err) {
         dispatch({ type: "PAY_FAIL", payload: getError(err) });
-        toast.error(getError(err));
+        window.location.reload();
+        // console.log(getError(err));
+        // toast.error(getError(err));
       }
     });
   }
   function onError(err) {
     toast.error(getError(err));
+    // console.log(getError(err));
   }
 
   useEffect(() => {

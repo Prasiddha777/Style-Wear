@@ -1,5 +1,5 @@
 {
-  "name": "amazona",
+  "name": "style_wear",
   "version": "1.0.0",
   "description": "# Lessons",
   "main": "index.js",
@@ -10,12 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basir/mern-amazona.git"
+    "url": "git+https://github.com/Prasiddha777/Style-Wear"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/basir/mern-amazona/issues"
-  },
-  "homepage": "https://github.com/basir/mern-amazona#readme"
+  "license": "ISC"
 }
